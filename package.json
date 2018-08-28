@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-otovo",
   "version": "1.0.0",
-  "description": "A place for JavaScript related stuff like eslint-configs etc",
+  "description": "A set of eslint-configs for Otovo projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
