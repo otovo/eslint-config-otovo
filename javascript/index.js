@@ -8,6 +8,8 @@ module.exports = {
   ],
   plugins: ['prettier'],
   rules: {
+    'no-underscore-dangle': ['off'],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'import/prefer-default-export': ['off'],
     'import/order': [
       'error',
