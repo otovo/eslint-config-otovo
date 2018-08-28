@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-otovo",
+  "version": "1.0.0",
+  "description": "A place for JavaScript related stuff like eslint-configs etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otovo/otovo-js.git"
+  },
+  "author": "Rix1 <rix1@otovo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otovo/otovo-js/issues"
+  },
+  "homepage": "https://github.com/otovo/otovo-js#readme",
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-babel": "^5.0.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
