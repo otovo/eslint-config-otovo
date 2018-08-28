@@ -1,8 +1,8 @@
-#Otovo Javascript
+# Otovo Javascript
 
 This repo contains a set highly opinionated linting rules (eslint-configs) for
-Otovo projects. *Note:* Every configuration assumes you are using Prettier and
-they specify relevant Prettier rules.
+Otovo projects. **Note:** Every configuration assumes you are using Prettier and
+they specify relevant Prettier rules within the config.
 
 ## Installing
 
