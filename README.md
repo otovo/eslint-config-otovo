@@ -13,7 +13,7 @@ yarn add https://github.com/otovo/javascript.git
 ## Using
 
 In your `.eslintrc` file you can specify which config you want to extend. The
-default will extend everything (currently JavaScript, FlowType and React):
+default will extend everything (currently JavaScript, Flow, and React):
 
 ```json
 // .eslintrc.json
@@ -28,7 +28,7 @@ default will extend everything (currently JavaScript, FlowType and React):
 ```
 
 To extend just a subset, specify which folder(s) you want to include. The
-following example uses only JavaScript and Flowtype rules:
+following example uses only JavaScript and Flow rules:
 
 ```json
 // .eslintrc.json
