@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['javascript', 'flowtype', 'react'].map(require.resolve)
+  extends: ['./javascript', './flowtype', './react'].map(require.resolve)
 };
