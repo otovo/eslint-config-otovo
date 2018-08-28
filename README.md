@@ -1,3 +1,43 @@
-# Otovo Javascript
+#Otovo Javascript
 
-> For the time being this repo contains ESlint rules used across Otovo projects
+This repo contains a set highly opinionated linting rules (eslint-configs) for
+Otovo projects. *Note:* Every configuration assumes you are using Prettier and
+they specify relevant Prettier rules.
+
+## Installing
+
+```
+yarn add https://github.com/otovo/otovo-js.git
+```
+
+## Using
+
+In your `.eslintrc` file you can specify which config you want to extend. The
+default will extend everything (currently JavaScript, FlowType and React):
+
+```json
+// .eslintrc.json
+
+{
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["otovo"]
+}
+```
+
+To extend just a subset, specify which folder(s) you want to include. The
+following example uses only Javascript and Flowtype rules:
+
+```json
+// .eslintrc.json
+
+{
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["otovo/javascript", "otovo/flowtype"]
+}
+```
