@@ -7,7 +7,7 @@ they specify relevant Prettier rules within the config.
 ## Installing
 
 ```
-yarn add https://github.com/otovo/otovo-js.git
+yarn add https://github.com/otovo/javascript.git
 ```
 
 ## Using
