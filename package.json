@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/otovo/javascript.git"
   },
-  "author": "Rix1 <rix1@otovo.com>",
+  "author": "Rikard Eide <rix1@otovo.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/otovo/javascript/issues"
