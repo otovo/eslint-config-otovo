@@ -1,4 +1,4 @@
-# Otovo Javascript
+# Otovo JavaScript
 
 This repo contains a set highly opinionated linting rules (eslint-configs) for
 Otovo projects. **Note:** Every configuration assumes you are using Prettier and
@@ -28,7 +28,7 @@ default will extend everything (currently JavaScript, FlowType and React):
 ```
 
 To extend just a subset, specify which folder(s) you want to include. The
-following example uses only Javascript and Flowtype rules:
+following example uses only JavaScript and Flowtype rules:
 
 ```json
 // .eslintrc.json
