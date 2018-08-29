@@ -1,5 +1,10 @@
 module.exports = {
+  extends: ['plugin:flowtype/recommended'],
   parser: 'babel-eslint',
-  extends: ['plugin:flowtype/recommended', 'prettier/flowtype'],
-  plugins: ['flowtype', 'prettier']
+  // "plugins": [
+  //   "flowtype", added by plugin:flowtype/recommended
+  // ],
+  rules: {
+    'react/forbid-prop-types': ['warn']
+  }
 };

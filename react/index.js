@@ -1,11 +1,9 @@
 module.exports = {
+  extends: ['plugin:react/recommended', 'plugin:jsx-a11y/recommended'],
   parser: 'babel-eslint',
-  extends: [
-    'plugin:react/recommended',
-    'prettier/react',
-    'plugin:jsx-a11y/recommended'
-  ],
-  plugins: ['react', 'prettier'],
+  // "plugins": [
+  //   "react", added both with Airbnb config and plugin:react/recommended
+  // ],
   rules: {
     'react/jsx-filename-extension': ['off', { extensions: ['.jsx'] }],
     'react/sort-comp': [

@@ -1,12 +1,6 @@
 module.exports = {
+  extends: ['airbnb', 'plugin:import/errors', 'plugin:import/warnings'],
   parser: 'babel-eslint',
-  extends: [
-    'airbnb',
-    'plugin:import/errors',
-    'plugin:import/warnings',
-    'prettier'
-  ],
-  plugins: ['prettier'],
   rules: {
     'no-underscore-dangle': ['off'],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
