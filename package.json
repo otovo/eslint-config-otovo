@@ -20,7 +20,6 @@
     "eslint": "^4.19",
     "eslint-config-airbnb": "^16.1",
     "eslint-config-prettier": "^2.9",
-    "eslint-plugin-babel": "^5.0",
     "eslint-plugin-flowtype": "^2.46",
     "eslint-plugin-import": "^2.10",
     "eslint-plugin-jsx-a11y": "^6.0",
