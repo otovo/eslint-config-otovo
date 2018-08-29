@@ -1,10 +1,16 @@
+const jsRules = require('../javascript/rules');
+
 module.exports = {
-  extends: ['plugin:react/recommended', 'plugin:jsx-a11y/recommended'],
+  extends: [
+    'airbnb',
+    'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended'
+  ],
   parser: 'babel-eslint',
   // "plugins": [
   //   "react", added both with Airbnb config and plugin:react/recommended
   // ],
-  rules: {
+  rules: Object.assign({}, jsRules, {
     // Because Flow can infer default props based on which props are listed in `defaultProps` we disable forbudDefaultForRequired
     'react/require-default-props': [
       2,
@@ -39,5 +45,5 @@ module.exports = {
       }
     ],
     'react/no-did-mount-set-state': ['off']
-  }
+  })
 };

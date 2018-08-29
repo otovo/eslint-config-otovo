@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A set of eslint-configs for Otovo projects",
   "main": "index.js",
+  "engines": {
+    "node": "^9.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,13 +20,16 @@
   },
   "homepage": "https://github.com/otovo/otovo-js#readme",
   "peerDependencies": {
+    "babel-eslint": "^9.0.0",
     "eslint": "^4.19",
     "eslint-config-airbnb": "^16.1",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^2.9",
     "eslint-plugin-flowtype": "^2.46",
     "eslint-plugin-import": "^2.10",
     "eslint-plugin-jsx-a11y": "^6.0",
     "eslint-plugin-prettier": "^2.2",
-    "eslint-plugin-react": "^7.7"
+    "eslint-plugin-react": "^7.7",
+    "prettier": "^1.14.2"
   }
 }
