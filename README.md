@@ -1,4 +1,4 @@
-# Otovo JavaScript
+# Otovo eslint config
 
 This repo contains a set highly opinionated linting rules (eslint-configs) for
 Otovo projects. **Note:** Every configuration assumes you are using Prettier and
