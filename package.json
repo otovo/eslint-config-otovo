@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/otovo/javascript.git"
+    "url": "git+https://github.com/otovo/eslint-config-otovo.git"
   },
   "author": "Rikard Eide <rix1@otovo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/otovo/javascript/issues"
+    "url": "https://github.com/otovo/eslint-config-otovo/issues"
   },
-  "homepage": "https://github.com/otovo/javascript#readme",
+  "homepage": "https://github.com/otovo/eslint-config-otovo#readme",
   "peerDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.15.2",
