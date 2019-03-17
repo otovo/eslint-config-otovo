@@ -2,6 +2,11 @@
   "name": "eslint-config-otovo",
   "version": "1.0.0",
   "description": "A set of eslint-configs for Otovo projects",
+  "keywords": [
+    "eslint",
+    "flow",
+    "react"
+  ],
   "main": "src/index.js",
   "scripts": {
     "dist:build": "pack build",
