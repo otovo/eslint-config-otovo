@@ -4,7 +4,15 @@
   "description": "A set of eslint-configs for Otovo projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dist:build": "pack build",
+    "dist:publish": "pack publish"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ]
+    ]
   },
   "repository": {
     "type": "git",
@@ -28,5 +36,9 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.16.4"
+  },
+  "devDependencies": {
+    "@pika/pack": "^0.3.5",
+    "@pika/plugin-standard-pkg": "^0.3.14"
   }
 }
