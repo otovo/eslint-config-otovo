@@ -7,9 +7,6 @@ module.exports = {
     'plugin:jsx-a11y/recommended'
   ],
   parser: 'babel-eslint',
-  // "plugins": [
-  //   "react", added both with Airbnb config and plugin:react/recommended
-  // ],
   rules: Object.assign({}, jsRules, {
     // Because Flow can infer default props based on which props are listed in `defaultProps` we disable forbudDefaultForRequired
     'react/require-default-props': [
