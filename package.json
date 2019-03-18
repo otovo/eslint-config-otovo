@@ -5,7 +5,8 @@
   "keywords": [
     "eslint",
     "flow",
-    "react"
+    "react",
+    "otovo"
   ],
   "main": "index.js",
   "scripts": {
