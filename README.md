@@ -7,7 +7,11 @@ they specify relevant Prettier rules within the config.
 ## Installing
 
 ```
-yarn add https://github.com/otovo/javascript.git
+yarn add --dev @otovo/eslint-config-otovo
+
+# or using npm:
+
+npm install --save-dev @otovo/eslint-config-otovo
 ```
 
 ## Using
