@@ -1,6 +1,6 @@
 {
   "name": "@otovo/eslint-config-otovo",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A set of eslint-configs for Otovo projects",
   "keywords": [
     "eslint",
