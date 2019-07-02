@@ -48,3 +48,8 @@ following example uses only JavaScript and Flow rules:
   ]
 }
 ```
+
+## Publishing
+
+This package is hosted on npm under @otovo/eslint-config-otovo namespace and is
+published using the [`np`](https://github.com/sindresorhus/np) package.
