@@ -12,7 +12,7 @@ module.exports = {
     'react/require-default-props': [
       2,
       {
-        forbidDefaultForRequired: 0
+        forbidDefaultForRequired: false
       }
     ],
     // We want to encourage destructuring, but in order to do this incrementally we'll onyl warng about it.
