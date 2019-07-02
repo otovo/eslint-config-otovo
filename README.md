@@ -52,4 +52,12 @@ following example uses only JavaScript and Flow rules:
 ## Publishing
 
 This package is hosted on npm under @otovo/eslint-config-otovo namespace and is
-published using the [`np`](https://github.com/sindresorhus/np) package.
+published using the brilliant [`np`](https://github.com/sindresorhus/np) package.
+To publish a new version, run
+
+```
+yarn run release
+```
+
+This will guide you through the process of publishing on npm, pushing tags to
+Github and create release notes.
