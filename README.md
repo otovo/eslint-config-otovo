@@ -27,7 +27,7 @@ default will extend everything (currently JavaScript, Flow, and React):
     "browser": true
   },
   "parser": "babel-eslint",
-  "extends": ["otovo"]
+  "extends": ["@otovo/eslint-config-otovo"]
 }
 ```
 
@@ -42,6 +42,9 @@ following example uses only JavaScript and Flow rules:
     "browser": true
   },
   "parser": "babel-eslint",
-  "extends": ["otovo/javascript", "otovo/flowtype"]
+  "extends": [
+    "@otovo/eslint-config-otovo/javascript",
+    "@otovo/eslint-config-otovo/flowtype"
+  ]
 }
 ```
