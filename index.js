@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    "./javascript",
-    "./prettier",
-    "./prettier-react/",
-    "./prettier-flowtype/"
-  ].map(require.resolve)
+  extends: ["./javascript", "./react", "./prettier", "./prettier-react/"].map(
+    require.resolve
+  )
 };
