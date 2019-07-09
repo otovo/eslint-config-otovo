@@ -4,7 +4,7 @@ module.exports = {
   extends: [
     'airbnb',
     'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended'
+    'plugin:jsx-a11y/recommended',
   ],
   parser: 'babel-eslint',
   rules: Object.assign({}, jsRules, {
@@ -12,8 +12,8 @@ module.exports = {
     'react/require-default-props': [
       2,
       {
-        forbidDefaultForRequired: false
-      }
+        forbidDefaultForRequired: false,
+      },
     ],
     // We want to encourage destructuring, but in order to do this incrementally we'll onyl warng about it.
     // See https://github.com/yannickcr/eslint-plugin-react/issues/1731 for more info.
@@ -28,19 +28,19 @@ module.exports = {
           'static-methods',
           'lifecycle',
           'everything-else',
-          'render'
-        ]
-      }
+          'render',
+        ],
+      },
     ],
     'jsx-a11y/label-has-for': [
       2,
       {
         required: {
-          every: ['id']
+          every: ['id'],
         },
-        allowChildren: false
-      }
+        allowChildren: false,
+      },
     ],
-    'react/no-did-mount-set-state': ['off']
-  })
+    'react/no-did-mount-set-state': ['off'],
+  }),
 };
