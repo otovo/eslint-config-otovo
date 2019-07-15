@@ -16,7 +16,8 @@ npm install --save-dev @otovo/eslint-config-otovo
 
 Depending on your project, add one of these to your `.eslintrc` file:
 
-- **React without types:** `@otovo/eslint-config-otovo`
+- **Pure JS:** `@otovo/eslint-config-otovo`
+- **React without types:** `@otovo/eslint-config-otovo/react-recommended`
 - **React with Flow:** `@otovo/eslint-config-otovo/react-flow-recommended`
 - **React with Typescript:** `@otovo/eslint-config-otovo/react-typescript-recommended`
 
