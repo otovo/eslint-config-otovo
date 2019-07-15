@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./javascript', './prettier'].map(require.resolve)
+  extends: ['./javascript', './prettier'].map(require.resolve),
 };
