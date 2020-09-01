@@ -98,7 +98,9 @@ The following is a overview of the rules each collection includes:
 This package is hosted on npm under @otovo/eslint-config-otovo namespace and is published using [`np`](https://github.com/sindresorhus/np). To publish a new version, run
 
 ```sh
-yarn run release
+yarn release --no-tests
 ```
+
+(We currently don't have any tests)
 
 Doing so guides you through publishing to npm, pushing tags to Github and create release notes.
