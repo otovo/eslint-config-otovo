@@ -5,7 +5,17 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/indent': ['error', 2],
-    '@typescript-eslint/camelcase': false,
+    '@typescript-eslint/camelcase': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        'js': 'never',
+        'jsx': 'never',
+        'ts': 'never',
+        'tsx': 'never'
+      }
+    ]
   },
   settings: {
     'import/resolver': {
