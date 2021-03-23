@@ -10,7 +10,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "release": "np"
+    "release": "np --no-tests"
   },
   "repository": {
     "type": "git",
