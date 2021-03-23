@@ -15,7 +15,9 @@ module.exports = {
         'ts': 'never',
         'tsx': 'never'
       }
-    ]
+    ],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
   },
   settings: {
     'import/resolver': {
